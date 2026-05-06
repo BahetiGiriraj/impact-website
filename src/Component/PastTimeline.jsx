@@ -1,25 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
-import july2425 from '/src/assets/pastevents/timeline_24-25/July.jpg';
-import august2425 from '/src/assets/pastevents/timeline_24-25/Aug.jpg';
-import september2425 from '/src/assets/pastevents/timeline_24-25/Sept.jpg';
-import october2425 from '/src/assets/pastevents/timeline_24-25/Oct.jpg';
-import november2425 from '/src/assets/pastevents/timeline_24-25/Nov.jpg';
-import december2425 from '/src/assets/pastevents/timeline_24-25/Dec.jpg';
-import january2425 from '/src/assets/pastevents/timeline_24-25/Jan.jpg';
-import february2425 from '/src/assets/pastevents/timeline_24-25/Feb.png';
-import march2425 from '/src/assets/pastevents/timeline_24-25/Marc.webp';
-import april2324 from '/src/assets/pastevents/timeline_23-24/Apr.png';
-import may2324 from '/src/assets/pastevents/timeline_23-24/May.png';
-import june2324 from '/src/assets/pastevents/timeline_23-24/Jun.png';
-import july2324 from '/src/assets/pastevents/timeline_23-24/Jul.png';
-import august2324 from '/src/assets/pastevents/timeline_23-24/Aug.png';
-import september2324 from '/src/assets/pastevents/timeline_23-24/Sep.png';
-import october2324 from '/src/assets/pastevents/timeline_23-24/Oct.png';
-import november2324 from '/src/assets/pastevents/timeline_23-24/Nov.jpg';
-import january2324 from '/src/assets/pastevents/timeline_23-24/Jan.png';
-import february2324 from '/src/assets/pastevents/timeline_23-24/Feb.png';
-import march2324 from '/src/assets/pastevents/timeline_23-24/Mar.png';
+import july2425 from '../assets/pastevents/timeline_24-25/July.jpg';
+import august2425 from '../assets/pastevents/timeline_24-25/Aug.jpg';
+import september2425 from '../assets/pastevents/timeline_24-25/Sept.jpg';
+import october2425 from '../assets/pastevents/timeline_24-25/Oct.jpg';
+import november2425 from '../assets/pastevents/timeline_24-25/Nov.jpg';
+import december2425 from '../assets/pastevents/timeline_24-25/Dec.jpg';
+import january2425 from '../assets/pastevents/timeline_24-25/Jan.jpg';
+import february2425 from '../assets/pastevents/timeline_24-25/Feb.png';
+import march2425 from '../assets/pastevents/timeline_24-25/Marc.webp';
+import april2324 from '../assets/pastevents/timeline_23-24/Apr.png';
+import may2324 from '../assets/pastevents/timeline_23-24/May.png';
+import june2324 from '../assets/pastevents/timeline_23-24/Jun.png';
+import july2324 from '../assets/pastevents/timeline_23-24/Jul.png';
+import august2324 from '../assets/pastevents/timeline_23-24/Aug.png';
+import september2324 from '../assets/pastevents/timeline_23-24/Sep.png';
+import october2324 from '../assets/pastevents/timeline_23-24/Oct.png';
+import november2324 from '../assets/pastevents/timeline_23-24/Nov.jpg';
+import january2324 from '../assets/pastevents/timeline_23-24/Jan.png';
+import february2324 from '../assets/pastevents/timeline_23-24/Feb.png';
+import march2324 from '../assets/pastevents/timeline_23-24/Mar.png';
 
 // EventModal Component
 const EventModal = ({ isOpen, onClose, event }) => {

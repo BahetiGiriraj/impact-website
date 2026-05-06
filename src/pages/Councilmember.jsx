@@ -32,7 +32,7 @@ import AdarshImg from "../assets/team_image/Adarsh.png";
 import AnshImg from "../assets/team_image/Ansh.png";
 import KrushnarajImg from "../assets/team_image/Krushnaraj.jpg";
 import DarshanImg from "../assets/team_image/Darshan.JPG";
-import SurajSirImg from "../assets/team_image/SurajSir.png";
+import SurajSirImg from "../assets/team_image/surajsir.png";
 import AshishSirImg from "../assets/team_image/ashishsir.png";
 import AparnaMamImg from "../assets/team_image/aparnamam.png";
 import PratibhaMamImg from "../assets/team_image/prathibhamaam.png";
